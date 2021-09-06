@@ -32,5 +32,5 @@ Used MongoDB with Flask templating to create a new HTML page that displays all o
 * Created a template HTML file called [index.html](index.html) that will take the mars data dictionary and display all of the data in the appropriate HTML elements. 
 
 ![main_page](static/screenshots/main_page.png)
-![content1](static/screenshots/Mars_news_img_facts.png)
-![comtent2](static/screenshots/Mars_hemisphere_imgs.png)
+![Mars_news_img_facts](static/screenshots/Mars_news_img_facts.png)
+![Mars_hemisphere_imgs](static/screenshots/Mars_hemisphere_imgs.png)
