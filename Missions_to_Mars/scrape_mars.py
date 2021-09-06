@@ -75,9 +75,9 @@ def scrape():
         	title = hemisphere.h3.text        
         # Collect image link by browsing to hemisphere page
         	hemisphere_link = hemisphere.a["href"]    
-        	browser.visit(usgs_url + hemisphere_link)        
+        	browser.visit(base_url + hemisphere_link)        
         	image_html = browser.html
-        	image_soup = BeautifulSoup(image_html, 'html.parser')        
+        	image_soup = bs(image_html, 'html.parser')        
         	image_link = image_soup.find('div', class_='downloads')
         	image_url = image_link.find('li').a['href']
         # Create Dictionary to store title and url info
