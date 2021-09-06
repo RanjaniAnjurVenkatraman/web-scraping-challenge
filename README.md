@@ -39,6 +39,4 @@ Used MongoDB with Flask templating to create a new HTML page that displays all o
 * Once the program runs successfully it provides the IP address of the application
 * Copy it and open it in google chrome to view the html page 
 
-![main_page](static/screenshots/main_page.png)
-![Mars_news_img_facts](static/screenshots/Mars_news_img_facts.png)
-![Mars_hemisphere_imgs](static/screenshots/Mars_hemisphere_imgs.png)
+
